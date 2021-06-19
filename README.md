@@ -1,3 +1,3 @@
 # Viajes-Chile
-Pueba del módulo uno del Curso Diseño Ux/UI de Desafío Latam.
+Prueba del módulo uno del Curso Diseño UX/UI de Desafío Latam.
 Desarrollado por Catalina Caro.

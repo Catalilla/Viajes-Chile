@@ -1,4 +1,5 @@
-body {font-family: 'Oswald';
+body {background-color: black;
+    font-family: 'Oswald';
 }
 nav {font-family: 'Roboto';
 }
@@ -6,4 +7,10 @@ nav {font-family: 'Roboto';
 }
 .logoviajes {
     width: 3rem;
+}
+.textoqs {margin: 2rem;
+    color: white;
+    text-align: justify;
+}
+.icon {text-align: center;;
 }
