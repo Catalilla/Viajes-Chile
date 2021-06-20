@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,8 @@
     <meta name="description" content="Guía de Viajes por Chile">
     <meta name="keywords" content="Chile, viajes, turismo">
     <!-- Bootstrap CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -20,6 +22,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-md-3">
@@ -40,13 +43,13 @@
                         <a class="nav-link" href="#index">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -56,70 +59,137 @@
     <!--Carrusel-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Desierto">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Desierto">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
-    <!--Quienes Somos-->
-    <Section class="textoqs">
-        <div class="row">
-            <div class="col">
-                <div class="bg-info icon">
-                <i class="fas fa-plane"></i>    
+    <!--Quiénes Somos-->
+    <section class="quienes-somos pt-5 pb-3">
+        <h1 class="pb-1">¿Quiénes Somos?</h1>
+        <hr>
+        <div class="textoqs">
+            <div class="row">
+                <div class="col-sm-12 col-xl-4">
+                    <div class="bg-info icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt accusamus
+                        consequuntur incidunt veritatis minus perspiciatis et, quod rerum, enim eaque quisquam ipsa quae
+                        quas, totam eius magnam pariatur est. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Autem ipsum ut minima, fugit earum fugiat accusamus est neque dolorem laudantium assumenda
+                        voluptate magnam eum laboriosam consequuntur officiis, vitae vel consectetur!</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt accusamus consequuntur incidunt veritatis minus perspiciatis et, quod rerum, enim eaque quisquam ipsa quae quas, totam eius magnam pariatur est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ipsum ut minima, fugit earum fugiat accusamus est neque dolorem laudantium assumenda voluptate magnam eum laboriosam consequuntur officiis, vitae vel consectetur!</p>
-            </div>
-            <div class="col">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam id. In, earum quidem? Dolor dolorum vero quod, eligendi quis nemo veritatis veniam, blanditiis suscipit animi reiciendis, quibusdam natus laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima quibusdam distinctio ab quaerat esse nesciunt mollitia. Neque rerum numquam accusantium iste fuga, fugit necessitatibus tempora distinctio saepe incidunt pariatur.</p>
-                <div class="bg-info icon">
-                <i class="fas fa-mountain"></i>
-                </div>   
-            </div>
-            <div class="col">
-            <div class="bg-info icon">
-            <i class="fas fa-route"></i>    
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis necessitatibus animi ipsam libero. Facere, repellendus quis voluptates consequuntur, itaque, soluta dolorum cum aliquid quaerat maxime quod. Odio, libero vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas reprehenderit maxime quia incidunt, molestias dolorem neque placeat. Sapiente suscipit unde modi delectus quia iusto error aut eum minima sint.</p>
+                <div class="col-sm-12 col-xl-4">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam id. In, earum
+                        quidem? Dolor dolorum vero quod, eligendi quis nemo veritatis veniam, blanditiis suscipit animi
+                        reiciendis, quibusdam natus laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellendus minima quibusdam distinctio ab quaerat esse nesciunt mollitia. Neque rerum numquam
+                        accusantium iste fuga, fugit necessitatibus tempora distinctio saepe incidunt pariatur.</p>
+                    <div class="bg-info icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xl-4">
+                    <div class="bg-info icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis necessitatibus
+                        animi ipsam libero. Facere, repellendus quis voluptates consequuntur, itaque, soluta dolorum cum
+                        aliquid quaerat maxime quod. Odio, libero vitae. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ab quas reprehenderit maxime quia incidunt, molestias dolorem neque placeat.
+                        Sapiente suscipit unde modi delectus quia iusto error aut eum minima sint.</p>
+                </div>
             </div>
         </div>
-    
     </Section>
     <!--Tarjetas-->
-
+    <section class="destacados">
+        <h1>Destacados</h1>
+        <hr>
+        <div class="row destacado">
+            <div class="col-12 col-md-6 col-xl-3 p-0">
+                <div class="card" style="width: 16rem;">
+                    <img  class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
+                    <div class="card-body bg-info">
+                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top desierto" src="assets/img/card2.jpg" alt="Laguna en el desierto">
+                    <div class="card-body bg-info">
+                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/img/card3.jpg" alt="Salar con laguna">
+                    <div class="card-body bg-info">
+                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/img/card4.jpg" alt="Bosque Valdiviano">
+                    <div class="card-body bg-info">
+                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Formulario Contacto-->
+    <form class="contacto">
+        <h1>Contacto</h1>
+        <hr>
+        <div>
+
+        </div>
+    </form>
 
     <!--Footer-->
-    <footer class="bg-info text-white text-center">
-        <h4 class="d-inline pe-5">Viajes Chile</h4>
-    <div class="d-inline ps-5">
-    <i class="fab fa-github-square"></i>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-twitter-square"></i>
-    <i class="fab fa-facebook-square"></i>
-    </div>
-</footer>
-    
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<!-- JQuery 3.6.0-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- Mi JavaScript-->
-<script src="assets/js/script.js"></script>
+    <footer class="bg-info text-center">
+        <h1 class="d-inline txtlog pe-5 me-5">Viajes Chile</h4>
+        <div class="d-inline ps-5 ms-5">
+            <i class="fab fa-github-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-square"></i>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <!-- JQuery 3.6.0-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Mi JavaScript-->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

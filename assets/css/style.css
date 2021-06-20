@@ -1,16 +1,41 @@
 body {background-color: black;
     font-family: 'Oswald';
+    color: white;
 }
 nav {font-family: 'Roboto';
+}
+h1 {font-family: 'Roboto';
+    text-align: center;
 }
 .txtlogo {font-size: xx-large;
 }
 .logoviajes {
     width: 3rem;
 }
-.textoqs {margin: 2rem;
-    color: white;
+.textoqs {margin: 3rem;
     text-align: justify;
 }
 .icon {text-align: center;;
 }
+hr {border-top: 0.2rem solid;
+    color: #5bc0de;
+    opacity: 90%;
+    margin: 0 2rem
+}
+.fas {font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.destacado {margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+.card-img-top {max-height: 10rem;
+}
+.fab {font-size: 2.5rem;
+    padding: 5px 0.5rem;
+}
+
+
+
