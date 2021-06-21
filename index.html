@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#index">Inicio</a>
+                        <a class="nav-link" href="#carouselExampleControls">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
@@ -60,13 +60,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Desierto">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Desierto de atacama con llamas">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moais de Isla de Pascua">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pingüino de Magallanes">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -82,7 +82,7 @@
     </div>
 
     <!--Quiénes Somos-->
-    <section class="quienes-somos pt-5 pb-3">
+    <section id="quienes-somos" class="pt-5 pb-3 d-none d-lg-block">
         <h1 class="pb-1">¿Quiénes Somos?</h1>
         <hr>
         <div class="textoqs">
@@ -121,16 +121,18 @@
         </div>
     </Section>
     <!--Tarjetas-->
-    <section class="destacados">
+    <section id="destacados">
         <h1>Destacados</h1>
         <hr>
         <div class="row destacado">
             <div class="col-12 col-md-6 col-xl-3 p-0">
                 <div class="card" style="width: 16rem;">
-                    <img  class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
+                    <img class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
                     <div class="card-body bg-info">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
                     </div>
                 </div>
             </div>
@@ -138,8 +140,10 @@
                 <div class="card" style="width: 16rem;">
                     <img class="card-img-top desierto" src="assets/img/card2.jpg" alt="Laguna en el desierto">
                     <div class="card-body bg-info">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
                     </div>
                 </div>
             </div>
@@ -147,8 +151,10 @@
                 <div class="card" style="width: 16rem;">
                     <img class="card-img-top" src="assets/img/card3.jpg" alt="Salar con laguna">
                     <div class="card-body bg-info">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
                     </div>
                 </div>
             </div>
@@ -156,31 +162,38 @@
                 <div class="card" style="width: 16rem;">
                     <img class="card-img-top" src="assets/img/card4.jpg" alt="Bosque Valdiviano">
                     <div class="card-body bg-info">
-                      <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's.</p>
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Formulario Contacto-->
-    <form class="contacto">
+    <form id="contacto">
         <h1>Contacto</h1>
-        <hr>
-        <div>
-
+        <div class="pb-5">
+            <hr>
         </div>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/zUAp2z35?typeform-medium=embed-snippet"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
     </form>
 
     <!--Footer-->
-    <footer class="bg-info text-center">
-        <h1 class="d-inline txtlog pe-5 me-5">Viajes Chile</h4>
-        <div class="d-inline ps-5 ms-5">
-            <i class="fab fa-github-square"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-facebook-square"></i>
+    <footer class="row bg-info text-center">
+        <div class="col d-none d-lg-block">
+            <h1 class="d-inline txtlog">Viajes Chile</h4>
         </div>
+        <div class="col d-inline">
+            <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        </div>
+
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
@@ -192,4 +205,5 @@
     <!-- Mi JavaScript-->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
