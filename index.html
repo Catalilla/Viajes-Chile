@@ -9,7 +9,7 @@
     <meta name="author" content="Catalina Caro">
     <meta name="description" content="Guía de Viajes por Chile">
     <meta name="keywords" content="Chile, viajes, turismo">
-    <!-- Bootstrap CSS only -->
+    <!-- Bootstrap CSS only 5.0.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--Google fonts-->
@@ -19,14 +19,14 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--CSS-->
+    <!-- Mi CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-md-3">
-        <div class="container-fluid" id=navmargin>
+    <!--Navbar (Bootstrap)-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
             <a class="navbar-brand" href="#index.html">
                 <img class="logoviajes d-inline" src="assets/img/viajes.svg" alt="logo viajes chile">
                 <div class="navbar-brand d-inline txtlogo" href="#">Viajes Chile</div>
@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#carouselExampleControls">Inicio</a>
+                        <a class="nav-link" href="#carrusel">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
@@ -56,8 +56,8 @@
         </div>
     </nav>
 
-    <!--Carrusel-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!--Carrusel (B JS)-->
+    <div class="carousel slide" id="carrusel" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Desierto de atacama con llamas">
@@ -81,7 +81,7 @@
         </button>
     </div>
 
-    <!--Quiénes Somos-->
+    <!--Quiénes Somos (Bootstrap)-->
     <section id="quienes-somos" class="pt-5 pb-3 d-none d-lg-block">
         <h1 class="pb-1">¿Quiénes Somos?</h1>
         <hr>
@@ -95,14 +95,16 @@
                         consequuntur incidunt veritatis minus perspiciatis et, quod rerum, enim eaque quisquam ipsa quae
                         quas, totam eius magnam pariatur est. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Autem ipsum ut minima, fugit earum fugiat accusamus est neque dolorem laudantium assumenda
-                        voluptate magnam eum laboriosam consequuntur officiis, vitae vel consectetur!</p>
+                        voluptate magnam eum laboriosam consequuntur officiis, vitae vel consectetur pariatur
+                        necessitatibus tempora distinctio saepe.</p>
                 </div>
                 <div class="col-sm-12 col-xl-4">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam id. In, earum
                         quidem? Dolor dolorum vero quod, eligendi quis nemo veritatis veniam, blanditiis suscipit animi
                         reiciendis, quibusdam natus laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Repellendus minima quibusdam distinctio ab quaerat esse nesciunt mollitia. Neque rerum numquam
-                        accusantium iste fuga, fugit necessitatibus tempora distinctio saepe incidunt pariatur.</p>
+                        accusantium iste fuga, fugit necessitatibus tempora distinctio saepe incidunt pariatur tempora
+                        distinctio saepe incidunt.</p>
                     <div class="bg-info icon">
                         <i class="fas fa-mountain"></i>
                     </div>
@@ -115,88 +117,93 @@
                         animi ipsam libero. Facere, repellendus quis voluptates consequuntur, itaque, soluta dolorum cum
                         aliquid quaerat maxime quod. Odio, libero vitae. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Ab quas reprehenderit maxime quia incidunt, molestias dolorem neque placeat.
-                        Sapiente suscipit unde modi delectus quia iusto error aut eum minima sint.</p>
-                </div>
-            </div>
-        </div>
-    </Section>
-    <!--Tarjetas-->
-    <section id="destacados">
-        <h1>Destacados</h1>
-        <hr>
-        <div class="row destacado">
-            <div class="col-12 col-md-6 col-xl-3 p-0">
-                <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
-                    <div class="card-body bg-info">
-                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content. Some quick example text to build on the card title and make up the bulk
-                            of the card's.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 p-0">
-                <div class="card" style="width: 16rem;">
-                    <img class="card-img-top desierto" src="assets/img/card2.jpg" alt="Laguna en el desierto">
-                    <div class="card-body bg-info">
-                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content. Some quick example text to build on the card title and make up the bulk
-                            of the card's.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 p-0">
-                <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="assets/img/card3.jpg" alt="Salar con laguna">
-                    <div class="card-body bg-info">
-                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content. Some quick example text to build on the card title and make up the bulk
-                            of the card's.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 p-0">
-                <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="assets/img/card4.jpg" alt="Bosque Valdiviano">
-                    <div class="card-body bg-info">
-                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content. Some quick example text to build on the card title and make up the bulk
-                            of the card's.</p>
-                    </div>
+                        Sapiente suscipit unde modi delectus quia iusto error aut eum minima sint saepe incidunt
+                        necessitatibus tempora distinctio.</p>
                 </div>
             </div>
         </div>
     </section>
-    <!--Formulario Contacto-->
+    <!--Tarjetas (Bootstrap)-->
+    <section id="destacados">
+        <h1>Destacados</h1>
+        <hr>
+        <div class="row destacado">
+            <div class="col-12 col-md-6 col-xl-3 p-0 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
+                    <div class="card-body bg-info">
+                        <h4 class="card-title">Deslúmbrate con los volcanes en la Araucanía</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top desierto" src="assets/img/card2.jpg" alt="Laguna en el desierto">
+                    <div class="card-body bg-info">
+                        <h4 class="card-title">Descúbre las lagunas del Altiplano</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/img/card3.jpg" alt="Salar con laguna">
+                    <div class="card-body bg-info">
+                        <h4 class="card-title">Maravíllate con los salares de Atacama</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/img/card4.jpg" alt="Bosque Valdiviano">
+                    <div class="card-body bg-info">
+                        <h4 class="card-title">Intérnate en el bosque Valdiviano</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Some quick example text to build on the card title and make up the bulk
+                            of the card's.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Formulario Contacto (Typeform)-->
     <form id="contacto">
         <h1>Contacto</h1>
         <div class="pb-5">
             <hr>
         </div>
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/zUAp2z35?typeform-medium=embed-snippet"
-            style="width: 100%; height: 500px;"></div>
-        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+        <div class="formulario">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/l3C34oWm?typeform-medium=embed-snippet"
+                style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+        </div>
     </form>
 
-    <!--Footer-->
-    <footer class="row bg-info text-center">
-        <div class="col d-none d-lg-block">
-            <h1 class="d-inline txtlog">Viajes Chile</h4>
+    <!--Footer (Bootstrap)-->
+    <footer class="container-fluid">
+        <div class="row bg-info text-center py-2">
+            <div class="col d-none d-lg-block">
+                <a href="#carrusel" class="txtlogo" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Volver al inicio">Viajes Chile</a>
+            </div>
+            <div class="col">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </div>
         </div>
-        <div class="col d-inline">
-            <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-        </div>
-
     </footer>
 
-    <!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript Bundle with Popper 5.0.1-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
