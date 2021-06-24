@@ -20,10 +20,9 @@ $(document).ready(function(){
         return new bootstrap.Tooltip(tooltipTriggerEl)
     });
 
-    //Desaparecer contenido tarjetas//
-    $(".card-title").click(function() {
-        $(".card-text").toggle("slow");
-      });
-      
+    //Aparecer contenido de tarjetas//
+    $(".card-title").click(function(){
+		$(".card-text").removeClass("d-none");
+	});
 
 });

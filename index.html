@@ -29,7 +29,7 @@
         <div class="container">
             <a class="navbar-brand" href="#index.html">
                 <img class="logoviajes d-inline" src="assets/img/viajes.svg" alt="logo viajes chile">
-                <div class="navbar-brand d-inline txtlogo" href="#">Viajes Chile</div>
+                <div class="navbar-brand d-inline txtlogo" href="#index.html">Viajes Chile</div>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -81,17 +81,17 @@
         </button>
     </div>
 
-    <!--Quiénes Somos (Bootstrap)-->
+    <!--Quiénes Somos (Bootstrap) No logré hacer que se muestre colapsado solo en sm-->
     <section id="quienes-somos" class="pt-5 pb-3 d-none d-lg-block">
         <h1 class="pb-1">¿Quiénes Somos?</h1>
         <hr>
         <div class="textoqs">
             <div class="row">
                 <div class="col-sm-12 col-xl-4">
-                    <div class="bg-info icon">
+                    <div class="bg-info icon" role="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"> 
                         <i class="fas fa-plane"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt accusamus
+                    <p class="collapse.show" id="collapse1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt accusamus
                         consequuntur incidunt veritatis minus perspiciatis et, quod rerum, enim eaque quisquam ipsa quae
                         quas, totam eius magnam pariatur est. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Autem ipsum ut minima, fugit earum fugiat accusamus est neque dolorem laudantium assumenda
@@ -99,21 +99,21 @@
                         necessitatibus tempora distinctio saepe.</p>
                 </div>
                 <div class="col-sm-12 col-xl-4">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam id. In, earum
+                    <p class="collapse.show" id="collapse2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam id. In, earum
                         quidem? Dolor dolorum vero quod, eligendi quis nemo veritatis veniam, blanditiis suscipit animi
                         reiciendis, quibusdam natus laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Repellendus minima quibusdam distinctio ab quaerat esse nesciunt mollitia. Neque rerum numquam
                         accusantium iste fuga, fugit necessitatibus tempora distinctio saepe incidunt pariatur tempora
                         distinctio saepe incidunt.</p>
-                    <div class="bg-info icon">
+                    <div class="bg-info icon" role="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                         <i class="fas fa-mountain"></i>
                     </div>
                 </div>
                 <div class="col-sm-12 col-xl-4">
-                    <div class="bg-info icon">
+                    <div class="bg-info icon" role="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                         <i class="fas fa-route"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis necessitatibus
+                    <p class="collapse.show" id="collapse3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis necessitatibus
                         animi ipsam libero. Facere, repellendus quis voluptates consequuntur, itaque, soluta dolorum cum
                         aliquid quaerat maxime quod. Odio, libero vitae. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Ab quas reprehenderit maxime quia incidunt, molestias dolorem neque placeat.
@@ -123,7 +123,7 @@
             </div>
         </div>
     </section>
-    <!--Tarjetas (Bootstrap)-->
+    <!--Tarjetas (Bootstrap y JS)-->
     <section id="destacados">
         <h1>Destacados</h1>
         <hr>
@@ -133,7 +133,7 @@
                     <img class="card-img-top" src="assets/img/card1.jpg" alt="Lago con montañas">
                     <div class="card-body bg-info">
                         <h4 class="card-title">Deslúmbrate con los volcanes en la Araucanía</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text d-none">Some quick example text to build on the card title and make up the bulk of
                             the card's content. Some quick example text to build on the card title and make up the bulk
                             of the card's.</p>
                     </div>
@@ -144,7 +144,7 @@
                     <img class="card-img-top desierto" src="assets/img/card2.jpg" alt="Laguna en el desierto">
                     <div class="card-body bg-info">
                         <h4 class="card-title">Descúbre las lagunas del Altiplano</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text d-none">Some quick example text to build on the card title and make up the bulk of
                             the card's content. Some quick example text to build on the card title and make up the bulk
                             of the card's.</p>
                     </div>
@@ -155,7 +155,7 @@
                     <img class="card-img-top" src="assets/img/card3.jpg" alt="Salar con laguna">
                     <div class="card-body bg-info">
                         <h4 class="card-title">Maravíllate con los salares de Atacama</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text d-none">Some quick example text to build on the card title and make up the bulk of
                             the card's content. Some quick example text to build on the card title and make up the bulk
                             of the card's.</p>
                     </div>
@@ -166,7 +166,7 @@
                     <img class="card-img-top" src="assets/img/card4.jpg" alt="Bosque Valdiviano">
                     <div class="card-body bg-info">
                         <h4 class="card-title">Intérnate en el bosque Valdiviano</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text d-none">Some quick example text to build on the card title and make up the bulk of
                             the card's content. Some quick example text to build on the card title and make up the bulk
                             of the card's.</p>
                     </div>
@@ -195,10 +195,14 @@
                     title="Volver al inicio">Viajes Chile</a>
             </div>
             <div class="col">
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://github.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Ir a GitHub"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Ir a Linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Ir a Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Ir a Facebook"><i class="fab fa-facebook-square"></i></a>
             </div>
         </div>
     </footer>
