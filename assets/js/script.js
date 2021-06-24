@@ -14,11 +14,8 @@ $(document).ready(function(){
         }
     });
 
-    //Tooltip en Footer//     
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl){
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    });
+    //Tooltip en Footer//
+    $('[data-bs-toggle="tooltip"]').tooltip();
 
     //Aparecer contenido de tarjetas//
     $(".card-title").click(function(){

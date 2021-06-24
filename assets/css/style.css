@@ -1,49 +1,78 @@
-body {background-color: black;
+body {
+    background-color: black;
     font-family: 'Oswald';
     color: white;
 }
-nav {font-family: 'Roboto';
+
+nav {
+    font-family: 'Roboto';
 }
-h1 {font-family: 'Roboto';
+
+h1 {
+    font-family: 'Roboto';
     text-align: center;
 }
-.txtlogo {font-size: xx-large;
+
+.txtlogo {
+    font-size: xx-large;
     font-family: 'Roboto';
     text-decoration: none;
 }
-.logoviajes {width: 3rem;
+
+.logoviajes {
+    width: 3rem;
 }
-.textoqs {margin: 3rem;
+
+.textoqs {
+    margin: 3rem;
     text-align: justify;
 }
-.icon {text-align: center;
+
+.icon {
+    text-align: center;
 }
-.fas {font-size: 2rem;
+
+.fas {
+    font-size: 2rem;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-hr {border-top: 0.2rem solid;
+
+hr {
+    border-top: 0.2rem solid;
     color: #5bc0de;
     opacity: 90%;
     margin: 0 2rem
 }
-.destacado {margin: 2rem 3rem;
+
+.destacado {
+    margin: 2rem 3rem;
     padding-bottom: 3rem;
 }
-.card-img-top {max-height: 10rem;
+
+.card-img-top {
+    max-height: 10rem;
 }
-.fab {font-size: 2.5rem;
+
+.fab {
+    font-size: 2.5rem;
     padding-left: 0.5rem;
 }
-.formulario {margin-left: 3rem;
+
+.formulario {
+    margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
 }
-a {color: white;
-}
-a:hover {color: #057ea3;
-}
-h4:hover {color: #057ea3;
+
+a {
+    color: white;
 }
 
+a:hover {
+    color: #057ea3;
+}
 
+h4:hover {
+    color: #057ea3;
+}
