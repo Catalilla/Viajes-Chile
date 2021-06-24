@@ -11,6 +11,7 @@ nav {
 h1 {
     font-family: 'Roboto';
     text-align: center;
+    padding-top: 4rem;
 }
 
 .txtlogo {
@@ -46,7 +47,7 @@ hr {
 }
 
 .destacado {
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
     padding-bottom: 3rem;
 }
 

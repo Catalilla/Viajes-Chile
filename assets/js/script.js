@@ -14,6 +14,10 @@ $(document).ready(function(){
         }
     });
 
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
     //Tooltip en Footer//
     $('[data-bs-toggle="tooltip"]').tooltip();
 
